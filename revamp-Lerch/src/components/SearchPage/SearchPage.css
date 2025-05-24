@@ -1,0 +1,34 @@
+.searchPage {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.searchPage__button-background {
+    background-color: #B5121B;
+    height: auto;
+    width: 80%;
+}
+
+.searchPage__button-active {
+    margin: 15px 15px 0 15px;
+    border: none;
+    background-color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Gilda Display", serif;
+}
+
+.searchPage__button-dead {
+    margin: 15px 15px 0 15px;
+    border: none;
+    background-color: #B5121B;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    font-family: "Gilda Display", serif;
+}

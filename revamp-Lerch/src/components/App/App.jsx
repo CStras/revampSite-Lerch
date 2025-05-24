@@ -1,13 +1,15 @@
 import { useState } from "react";
 import Header from "../Header/Header";
+import SearchPage from "../SearchPage/SearchPage";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [pageType, setPageType] = useState("");
 
   return (
     <>
       <Header></Header>
+      <SearchPage pageType={pageType} setPageType={setPageType}></SearchPage>
     </>
   );
 }
