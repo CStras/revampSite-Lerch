@@ -4,18 +4,25 @@ function Filters() {
   return (
     <div className="filters">
       <section className="filters__search">
-        <h3>Search</h3>
-        <p>Clear Search</p>
-        <input placeholder="Address, City, or Zip"></input>
+        <div className="filters__title-clear">
+          <h3>Search</h3>
+          <p className="filters__title_clear-text">Clear Search</p>
+        </div>
+        <input
+          className="filters__title_input"
+          placeholder="Address, City, or Zip"
+        ></input>
       </section>
 
       <form className="filters__filter">
-        <h3>Filter</h3>
-        <p>Clear Filters</p>
+        <div className="filters__title-clear">
+          <h3>Filter</h3>
+          <p className="filters__title_clear-text">Clear Filters</p>
+        </div>
 
-        <label htmlFor="city">
+        <label htmlFor="city" className="filters__label">
           City
-          <select name="city">
+          <select className="filters__label_select" name="city">
             <option>Select Option</option>
             <option>St. Louis</option>
             <option>St. Louis</option>

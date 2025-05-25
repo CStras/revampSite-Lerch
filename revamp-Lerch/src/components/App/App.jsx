@@ -4,7 +4,7 @@ import SearchPage from "../SearchPage/SearchPage";
 import "./App.css";
 
 function App() {
-  const [pageType, setPageType] = useState("");
+  const [pageType, setPageType] = useState("List");
 
   return (
     <>
