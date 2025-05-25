@@ -2,10 +2,10 @@ import "./SearchPage.css";
 import Map from "../Map/Map";
 import List from "../List/List";
 
-function SearchPage({ pageType, setPageType }) {
+function SearchPage({ pageType, setPageType, houses }) {
   return (
     <div className="searchPage">
-      <h2>Properties</h2>
+      <h2>Search Properties</h2>
       <section className="searchPage__button-background">
         <button
           onClick={() => {
@@ -33,7 +33,7 @@ function SearchPage({ pageType, setPageType }) {
         </button>
       </section>
       {pageType === "Map" && <Map></Map>}
-      {pageType === "List" && <List></List>}
+      {pageType === "List" && <List houses={houses}></List>}
     </div>
   );
 }

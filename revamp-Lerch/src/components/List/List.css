@@ -1,3 +1,10 @@
 .list {
-    width: 80%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list__houses {
+    display: flex;
+    flex-direction: column;
 }

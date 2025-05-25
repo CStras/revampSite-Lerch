@@ -1,0 +1,23 @@
+.cardBtn {
+    width: 80%;
+    margin: 10px;
+}
+
+.cardBtn__schedule-btn {
+    border: none;
+    background-color: #B5121B;
+    color: white;
+    width: 80%;
+    padding: 5px;
+    height: auto;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.cardBtn__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}

@@ -1,0 +1,34 @@
+.card {
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gilda Display", serif;
+}
+
+.card__img {
+    height: auto;
+    width: 60%;
+    max-width: 400px;
+}
+
+.card__text {
+    width: 80%;
+    padding: 5px;
+    border-bottom: 2px solid rgb(205, 68, 68);
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__text_background-style {
+    padding: 5px;
+    background-color: rgb(241, 241, 241);
+    width: 80%;
+}
